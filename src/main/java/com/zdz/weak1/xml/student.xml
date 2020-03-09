@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<class>
+    <student>
+        <name>lisi</name>
+        <age>14</age>
+    </student>
+
+    <student>
+        <name>wangwu</name>
+        <age>15</age>
+    </student>
+</class>
