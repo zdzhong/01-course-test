@@ -16,7 +16,7 @@ public class JDBCTest {
             // 加载类驱动
             Class.forName("com.mysql.jdbc.Driver");
             // 通过驱动管理器获取数据库连接
-            connection = DriverManager.getConnection("jdbc:mysql://47.105.41.157:3306/learn?characterEncoding=utf-8", "root", "123456");
+            connection = DriverManager.getConnection("jdbc:mysql:///learn?characterEncoding=utf-8", "root", "123456");
             // 准备sql语句
             String sql = "insert into student(name, age) values(?, ?)";
             // 获取预处理statement
